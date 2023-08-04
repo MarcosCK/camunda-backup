@@ -5,7 +5,7 @@ Script desenvolvido para facilitar processo de backup do software Camunda, o scr
 O script te da a possibilidade de realizar backups incrementais do Jars utilizados no Camunda. No entanto, o backup do Jars é realizado recuperando os arquivos criados por meio de "Volumes" específicos. Ele não pegará diretamente os arquivos do Container. Para que o script funcione corretamente, é necessário criar volumes para a pasta "lib" do Camunda.
 
 <h2>Pré-requisitos</h2>
-Antes de executar o script, certifique-se de que você tenha instalado o Docker em sua máquina e que o ambiente "Camunda run" esteja  configurado.
+Antes de executar certifique-se que o ambiente "Camunda" esteja  configurado.
 
 <h2>Como utilizar o script</h2>
 
