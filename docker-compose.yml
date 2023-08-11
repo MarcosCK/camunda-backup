@@ -1,0 +1,9 @@
+version: '2.4'
+
+services:
+    camunda:
+        image: camunda/camunda-bpm-platform:${DISTRO}-${PLATFORM}
+        platform: linux/${PLATFORM}
+        ports:
+            - "8080:8080"
+        restart: unless-stopped
